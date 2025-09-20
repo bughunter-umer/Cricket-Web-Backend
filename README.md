@@ -1,4 +1,3 @@
-Absolutely! Here’s a **professional README** tailored for your **Cricket League Backend** using **Express, Sequelize, and PostgreSQL**. You can copy this into `README.md` in your backend folder.
 
 ---
 
