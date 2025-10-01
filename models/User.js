@@ -14,6 +14,7 @@ const User = sequelize.define("User", {
   password: { type: DataTypes.STRING, allowNull: false },
   role: {
     type: DataTypes.ENUM("admin", "user"),
+    allowNull: "false",
     defaultValue: "user",
   },
 });
@@ -24,3 +25,6 @@ User.beforeCreate(async (user) => {
 });
 
 export default User;
+
+
+

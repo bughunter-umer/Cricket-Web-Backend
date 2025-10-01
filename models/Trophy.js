@@ -12,3 +12,7 @@ const Trophy = sequelize.define("Trophy", {
 Trophy.belongsTo(Team, { as: "Winner", foreignKey: "winner_team_id" });
 
 export default Trophy;
+
+
+
+

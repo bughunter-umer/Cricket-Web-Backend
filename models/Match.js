@@ -17,3 +17,5 @@ Match.belongsTo(Team, { as: "TeamB", foreignKey: "team_b_id" });
 Match.belongsTo(Team, { as: "Winner", foreignKey: "winner_team_id" });
 
 export default Match;
+
+
